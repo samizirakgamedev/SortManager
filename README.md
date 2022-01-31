@@ -5,7 +5,7 @@
 > 
 The Sort Manager program will be able to take in an array of **'ints'** and sort it using different sort algorithms. 
 This project is being created as part of my ongoing training as a Junior Java SDET @ [Sparta Global](https://www.spartaglobal.com/)
-###Software & Dependencies 
+### Software & Dependencies ###
 * **IntelliJ Community Edition** [Version 2021.3.2](https://www.jetbrains.com/idea/download/#section=windows)
 * **JDK** [Version 17.0.2](https://jdk.java.net/17/)
 * **Apache Maven**
