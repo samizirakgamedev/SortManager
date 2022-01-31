@@ -23,13 +23,13 @@ This project is being created as part of my ongoing training as a Junior Java SD
         </dependency>
   </dependencies> 
 ```
-###Planned Project Phases
-####Phase 1
+### Planned Project Phases ###
+#### Phase 1 ####
 I will be implementing the basic functionality for a program which will take an array of ints and sort that array firstly using a bubble sort algorithm and then a merge sort algorithm.
-####Phase 2
+#### Phase 2 ####
 I will be updating the project so that it implements design patterns like the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) and [Factory](https://en.wikipedia.org/wiki/Factory_method_pattern) design pattern
 as well as other principles of [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) like [SOLID](https://en.wikipedia.org/wiki/SOLID).
-####Phase 3
+#### Phase 3 ####
 TBD - Will be updated as project progresses.
-####Phase 4
+#### Phase 4 ####
 TBD - Will be updated as project progresses.
