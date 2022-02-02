@@ -39,7 +39,6 @@ public class SortManagerMain {
         // Creating a new array to house the right half of the array we are sorting.
         // NOTE: The right side of the array will be the calculation of the array's length minus the array's midpoint.
         int[] rightArray = new int [arrayLength - indexSplit];
-        
         // Storing the left half of the array were sorting into the new 'left' array.
         for (int i = 0; i <indexSplit; i++){
             leftArray[i] = arrayToSort[i];
@@ -57,7 +56,7 @@ public class SortManagerMain {
         return arrayToSort;
     }
     // Bubble sort algorithm.
-    private static int[] bubbleSort(int[] arrayToSort){
+    public static int[] bubbleSort(int[] arrayToSort){
         boolean swappedANumber = true;
         // While the algorithm is still swapping continue to sort.
         while (swappedANumber){
