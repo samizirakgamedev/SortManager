@@ -124,7 +124,7 @@ public class SortManagerMain {
         System.out.println(builder);
     }
     // Method for creating an array of random ints when passed an array length and bounds for the random number generator.
-    private static int[] generateRandomArray(int length, int bounds){
+    public static int[] generateRandomArray(int length, int bounds){
         Random rand = new Random();
         int[] numbersToSort = new int[length];
         for(int i = 0; i < numbersToSort.length; i++){

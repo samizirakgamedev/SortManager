@@ -6,9 +6,14 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Random;
+
 public class BubbleSortTests {
     // Creating a new variable to store an instance of the main program.
     private static SortManagerMain main;
+    Random rand = new Random();
     // Before all tests make sure to instantiate an instance of the main program.
     @BeforeAll
     static  void setUp(){ main = new SortManagerMain();}
@@ -74,5 +79,33 @@ public class BubbleSortTests {
     public void bubbleSortWithNullArray(){
         int[] unsorted = null;
         NullPointerException nullPointerException = Assertions.assertThrows(NullPointerException.class, () -> main.bubbleSort(unsorted),"An exception has not been thrown");
+    }
+    @Test
+    @DisplayName("Given an array of 10 ints with RNG bounds it will return the sorted array of ints")
+    public void bubbleSortWithRandomValues() {
+        // Create random ints to pass into our generateRandomArray() method.
+        int length = 10;
+        int randValueBounds = rand.nextInt(2147483647);
+        // Generate the array and make a copy of it.
+        int[] unsorted = main.generateRandomArray(length, randValueBounds);
+        int[] expected = Arrays.copyOf(unsorted, length);
+        // Sort both the original array (using bubble sort) and the copy (using "Arrays" built in sort function).
+        int[] result = main.bubbleSort(unsorted);
+        Arrays.sort(expected);
+        Assertions.assertArrayEquals(expected, result);
+    }
+    @Test
+    @DisplayName("Given an array with a random length containing random ints it will return the sorted array of ints")
+    public void bubbleSortWithRandomArraySize() {
+        // Create random ints to pass into our generateRandomArray() method.
+        int randLength = rand.nextInt(10000);
+        int randValueBounds = rand.nextInt(100);
+        // Generate the array and make a copy of it.
+        int[] unsorted = main.generateRandomArray(randLength, randValueBounds);
+        int[] expected = Arrays.copyOf(unsorted, randLength);
+        // Sort both the original array (using bubble sort) and the copy (using "Arrays" built in sort function).
+        int[] result = main.bubbleSort(unsorted);
+        Arrays.sort(expected);
+        Assertions.assertArrayEquals(expected, result);
     }
 }
