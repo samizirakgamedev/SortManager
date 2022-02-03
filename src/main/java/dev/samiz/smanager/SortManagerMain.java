@@ -26,7 +26,7 @@ public class SortManagerMain {
         printArray(numbersToMergeSort);
     }
     // Merge sort algorithm
-    private static int[] mergeSort(int[] arrayToSort){
+    public static int[] mergeSort(int[] arrayToSort){
         // Grabbing the length of the input array.
         int arrayLength = arrayToSort.length;
         // If the array has only one element it is already sorted and does not require sorting.
