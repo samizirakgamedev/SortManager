@@ -1,5 +1,5 @@
 package dev.samiz.smanager.model;
-
+// Product 2
 public class MergeSort implements Sort{
     // Merge sort algorithm
     @Override
