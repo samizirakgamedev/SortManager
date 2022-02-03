@@ -1,4 +1,4 @@
-package dev.samiz.junitTests;
+package dev.samiz.junit.tests;
 
 import dev.samiz.smanager.SortManagerMain;
 import org.junit.jupiter.api.Assertions;
