@@ -5,7 +5,7 @@ import dev.samiz.smanager.model.Sort;
 import dev.samiz.smanager.model.SortTypeFactory;
 import java.util.Random;
 
-public class SortManagerController {
+public class SortManager {
     // Gets the newly created sort type created by the factory which was determined by the user input and initiates the sort algorithm.
     public int[] initiateSort(String sort, int[] arrayToSort){
         Sort s = getSort(sort);
