@@ -1,4 +1,4 @@
-package dev.samiz.junit.tests;
+package dev.samiz.junit.model;
 
 import dev.samiz.smanager.controller.SortManager;
 import org.junit.jupiter.api.Assertions;

@@ -11,7 +11,7 @@ public class SortManagerMain {
 
         // Generating a random array to use based on users input
         int[] toSort = controller.generateRandomArray(
-                display.getDesiredInt("Please enter the length of the array you want to generate (E.g. 8):"),
+                display.getDesiredInt("Please enter the length of the array you want to generate (Max 500):"),
                 display.getDesiredInt("Please enter the arrays value bounds (E.g. 400):"));
         // Outputting the generated array to the user.
         display.outputArray(toSort,

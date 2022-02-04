@@ -25,6 +25,8 @@ public class SortManager {
     }
     // Method for creating an array of random ints when passed an array length and bounds for the random number generator.
     public  int[] generateRandomArray(int length, int bounds){
+        if(length > 500)
+            length = 500;
         Random rand = new Random();
         int[] numbersToSort = new int[length];
         for(int i = 0; i < numbersToSort.length; i++){
