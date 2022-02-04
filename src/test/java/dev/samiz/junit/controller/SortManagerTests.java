@@ -36,7 +36,7 @@ public class SortManagerTests {
                 break;
             }
         }
-        Assertions.assertEquals(true,actualBoundsMet);
+        Assertions.assertTrue(actualBoundsMet);
     }
     @Test
     @DisplayName("Given a length int of 0 and bounds int the the generateRandomArray method is expected to return an empty array")

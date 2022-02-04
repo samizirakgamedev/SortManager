@@ -3,12 +3,18 @@ package dev.samiz.smanager.controller;
 import dev.samiz.smanager.model.AvailableSorts;
 import dev.samiz.smanager.model.Sort;
 import dev.samiz.smanager.model.SortTypeFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.Random;
 
 public class SortManager {
+    // Initialise logger for
+    private static Logger logger = LogManager.getLogger("Sort Manager Logger:");
+
     // Gets the newly created sort type created by the factory which was determined by the user input and initiates the sort algorithm.
     public int[] initiateSort(String sort, int[] arrayToSort){
         Sort s = getSort(sort);
+        logger.info("User requested a " + sort + " sort algorithm is used");
         return s.sort(arrayToSort);
     }
     // Based on the user's console input the method uses the string to determine which sort type it should ask the factory to create and return to the initiator.
