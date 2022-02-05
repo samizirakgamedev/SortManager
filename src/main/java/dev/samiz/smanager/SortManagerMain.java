@@ -8,7 +8,6 @@ public class SortManagerMain {
         // Initialising the View and Controller
         DisplayManager display = new DisplayManager();
         SortManager controller = new SortManager();
-
         // Generating a random array to use based on users input
         int[] toSort = controller.generateRandomArray(
                 display.getDesiredInt("Please enter the length of the array you want to generate (Max 500):"),

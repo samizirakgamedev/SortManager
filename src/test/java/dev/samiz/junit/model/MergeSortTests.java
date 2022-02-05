@@ -98,7 +98,7 @@ public class MergeSortTests {
     @DisplayName("Given an array with a random length containing random ints the mergeSort method returns the array sorted")
     public void mergeSortWithRandomArraySize() {
         // Create random ints and array of random size to pass into our generateRandomArray() method.
-        int randLength = rand.nextInt(10000);
+        int randLength = rand.nextInt(500);
         int randValueBounds = Math.abs(rand.nextInt());
         // Generate the array and make a copy of it.
         int[] unsorted = sortManager.generateRandomArray(randLength, randValueBounds);

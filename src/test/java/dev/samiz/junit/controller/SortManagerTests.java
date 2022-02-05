@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 public class SortManagerTests {
     // Creating a new variable to store an instance of the controller class.
     private static SortManager sortManager;
-
     // Before all tests make sure to instantiate an instance of the controller class.
     @BeforeAll
     static  void setUp(){ sortManager = new SortManager();}
