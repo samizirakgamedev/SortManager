@@ -45,6 +45,6 @@ I will be implementing the basic functionality for a program which will take an 
 I will be updating the project so that it implements design patterns like the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) and [Factory](https://en.wikipedia.org/wiki/Factory_method_pattern) design pattern
 as well as other principles of [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) like [SOLID](https://en.wikipedia.org/wiki/SOLID).
 #### Phase 3 ####
-I will be updating the project to include logging code using Log4j. This will require me to implement a properties file that Log4j can read. I will be creating logs at different levels and fully testing the resulting output through having the output going to a log file created in the project's directory.
+I will be updating the project to include logging code using Log4j. This will require me to implement a properties file that Log4j can read. I will be creating logs at different levels and fully testing the resulting output through having the output going to a log file created in the project's "**resources**" directory.
 #### Phase 4 ####
 TBD - Will be updated as project progresses.
