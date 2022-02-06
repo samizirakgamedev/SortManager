@@ -24,7 +24,7 @@ public class SortManager {
         AvailableSorts sort = switch (sortTypeStringFormatted){
             case "BUBBLE" -> AvailableSorts.BUBBLE;
             case "MERGE" -> AvailableSorts.MERGE;
-            // Case For Binary Search Will Go Here
+            case "BINARY" -> AvailableSorts.BINARY;
             default -> null;
         };
         logger.info("The controller has requested a new instance of the " + sort + " algorithm from the factory");

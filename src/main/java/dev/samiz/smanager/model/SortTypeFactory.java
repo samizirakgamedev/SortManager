@@ -8,7 +8,7 @@ public class SortTypeFactory extends SortType {
         Sort sort = switch (availableSorts) {
             case BUBBLE -> new BubbleSort();
             case MERGE -> new MergeSort();
-            // Case For Binary Search Will Go Here
+            case BINARY -> new BinarySearchTreeSort();
             default -> null;
         };
         return sort;

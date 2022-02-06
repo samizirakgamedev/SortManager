@@ -38,13 +38,26 @@ This project is being created as part of my ongoing training as a Junior Java SD
         <version>2.17.1</version>
     </dependency> 
 ```
+<br/>
+<div align="right">
+    <b><a href="#----">↥ back to top</a></b>
+</div>
+<br/>
+
 ### Planned Project Phases ###
 #### Phase 1 ####
 I will be implementing the basic functionality for a program which will take an array of ints and sort that array firstly using a bubble sort algorithm and then a merge sort algorithm.
 #### Phase 2 ####
 I will be updating the project so that it implements design patterns like the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) and [Factory](https://en.wikipedia.org/wiki/Factory_method_pattern) design pattern
-as well as other principles of [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) like [SOLID](https://en.wikipedia.org/wiki/SOLID).
+as well as other principles of [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) like [SOLID](https://en.wikipedia.org/wiki/SOLID). I will be implementing tests to ensure the program's controller functions correctly.
 #### Phase 3 ####
 I will be updating the project to include logging code using Log4j. This will require me to implement a properties file that Log4j can read. I will be creating logs at different levels and fully testing the resulting output through having the output going to a log file created in the project's "**resources**" directory.
 #### Phase 4 ####
-TBD - Will be updated as project progresses.
+I will be updating the project by implementing a binary search tree approach for sorting. The BST will be able to be called in the same way as the merge and bubble sort algorithms, this means like the merge and sort algorithms it will accept an array of ints and return an array of ints. I will also implement a nested class to represent a node in the tree. The BST algorithm will be subject to the same tests as the merge and bubble sort algorithms. It will be expected to pass them all.
+#### Phase 5 ####
+
+<br/>
+<div align="right">
+    <b><a href="#----">↥ back to top</a></b>
+</div>
+<br/>
