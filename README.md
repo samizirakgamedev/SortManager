@@ -40,7 +40,7 @@ This project is being created as part of my ongoing training as a Junior Java SD
 ```
 <br/>
 <div align="right">
-    <b><a href="#----">↥ back to top</a></b>
+    <b><a href="#sort-manager-application-java">↥ back to top</a></b>
 </div>
 <br/>
 
@@ -58,6 +58,6 @@ I will be updating the project by implementing a binary search tree approach for
 
 <br/>
 <div align="right">
-    <b><a href="#----">↥ back to top</a></b>
+    <b><a href="#sort-manager-application-java">↥ back to top</a></b>
 </div>
 <br/>
