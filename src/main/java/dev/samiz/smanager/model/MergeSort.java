@@ -1,7 +1,7 @@
 package dev.samiz.smanager.model;
 // Product 2
 public class MergeSort implements Sort{
-    // Merge sort algorithm
+    // Merge sort algorithm.
     @Override
     public int[] sort(int[] arrayToSort) {
         // Grabbing the length of the input array.

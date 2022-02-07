@@ -22,9 +22,9 @@ public class DisplayManager {
         for (AvailableSorts sorts : AvailableSorts.values()) {
             builder.setLength(0);
             System.out.println(builder.append("> ").append(sorts));
-            logger.info("The view has output to the console that " + sorts + " sort is an available algorithm to choose from.");
         }
         System.out.println(separateConsoleOutput);
+        logger.info("The view has output the available sort algorithms to the console");
     }
     // Outputs a string message to the user in the console followed by a passed in array.
     public void outputArray(int[] arrayToOutput, String message){
@@ -54,5 +54,18 @@ public class DisplayManager {
         logger.info("The view has received the string \"" + desiredString + "\" from the console.");
         System.out.println(separateConsoleOutput);
         return desiredString;
+    }
+    // Outputs a message with a long and a unit for the number.
+    public void outputStatistic(String message, long stat, String unit){
+        System.out.println(message + " " + stat + " " + unit);
+        logger.info("The view has output a statistic to the console: \"" + message + "\"" + " " + stat + " " + unit);
+        System.out.println(separateConsoleOutput);
+    }
+    // Outputs a message to the user that asks them for input that will be used by the controller to decide on a loop.
+    public int getDesireToLoop(){
+        System.out.println("Enter an even number to loop the program or and odd number to close it:");
+        int loopCommand = scanner.nextInt();
+        System.out.println(separateConsoleOutput);
+        return loopCommand;
     }
 }

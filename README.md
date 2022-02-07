@@ -1,4 +1,4 @@
-<img src="sparta.jpg" align="right" width="75" />
+<img src="readmeImages/sparta.jpg" align="right" width="75" />
 
 # Sort Manager Application (Java)
 > By: Sami Zirak - Junior Java SDET Consultant | [Portfolio](https://samiz.dev/) | [GitHub](https://github.com/samizirakgamedev) | [LinkedIn](https://www.linkedin.com/in/sami-zirak-dezfouly/) | [Twitter](https://twitter.com/SamiZirakDev) |
@@ -55,6 +55,7 @@ I will be updating the project to include logging code using Log4j. This will re
 #### Phase 4 ####
 I will be updating the project by implementing a binary search tree approach for sorting. The BST will be able to be called in the same way as the merge and bubble sort algorithms, this means like the merge and sort algorithms it will accept an array of ints and return an array of ints. I will also implement a nested class to represent a node in the tree. The BST algorithm will be subject to the same tests as the merge and bubble sort algorithms. It will be expected to pass them all.
 #### Phase 5 ####
+I will be adding timing information to the project and allow the user to select multiple algorithms to compare their performance.
 
 <br/>
 <div align="right">
